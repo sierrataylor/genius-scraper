@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraped Genius Data</title>
+    <style>
+        #lyrics{
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scraped lyrics</h1>
+    <h2>{{title}}</h2>
+        {% if lyrics %}
+            <p id="lyrics">{{lyrics}}</p>
+        {% endif %}    
+    
+</body>
+</html>
